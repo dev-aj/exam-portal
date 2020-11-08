@@ -38,7 +38,7 @@ const helperQuestions  = (className, today) => {
                 break;
             case 11:
                 //sst
-                window.location.href = ""
+                window.location.href = "https://presenter.jivrus.com/p/1A8_TMv5gWY8fhi__aNAml7yGJJABNAgCk_udwzkIXsU"
                 break;
             case 13:
                 //english

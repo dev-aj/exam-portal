@@ -54,21 +54,21 @@ function showQuestions(){
     loader.style.display = "block";
     redirectmsg.style.display = "block";
         setTimeout(() => {
-           helperQuestions(className, today);
+           helperQuestions(className, today, student_name);
         }, 1000)
 
     
 }
 //testlink - https://forms.gle/Rd7R1mQ62gdke534A
-const helperQuestions  = (className, today) => {
+const helperQuestions  = (className, today, student_name) => {
     console.log(className, today)
-    
-    if(className === "5"){
+    const clockHour = date_time.getHours();
+    const welcm_msg = document.getElementById('welcome-msg').innerHTML = `Hari Om, ${student_name}. All The Best for your exam.😊`
+    if(className === "5" && clockHour >= 10 && clockHour <= 13){
         console.log("Class: ",className)
         switch(today){
             case 9:
                 //maths
-                //window.location.href = ""
                 redirectmsg.innerHTML = `<iframe src="https://forms.gle/Rd7R1mQ62gdke534A" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 10:
@@ -77,24 +77,21 @@ const helperQuestions  = (className, today) => {
                 break;
             case 11:
                 //sst
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 13:
                 //english
-                window.location.href = ""
-                break;
-            case 8:
-                window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
+                redirectmsg.innerHTML = ""
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "6"){
+    } else if(className === "6" && clockHour >= 10 && clockHour <= 13){
         console.log("Class: ",className)
         switch(today){
             case 9:
                 //maths
-                window.location.href = "https://forms.gle/BpMk5xWjn7yJw3t17"
+                redirectmsg.innerHTML = "https://forms.gle/BpMk5xWjn7yJw3t17"
                 break;
             case 10:
                 //science
@@ -102,44 +99,38 @@ const helperQuestions  = (className, today) => {
                 break;
             case 12:
                 //english
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 13:
                 //sst
-                window.location.href = ""
-                break;
-            case 8:
-                window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
+                redirectmsg.innerHTML = ""
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "7"){
+    } else if(className === "7" && clockHour >= 10 && clockHour <= 13){
         console.log("Class: ",className)
         switch(today){
             case 9:
                 //Science
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 11:
                 //English
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 12:
                 //Math
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 13:
                 //Sst
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
-                case 8:
-                    window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
-                    break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "8"){
+    } else if(className === "8" && clockHour >= 10 && clockHour <= 13){
         console.log("Class: ",className)
         switch(today){
             case 10:
@@ -148,19 +139,16 @@ const helperQuestions  = (className, today) => {
                 break;
             case 11:
                 //Math
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 12:
                 //Science
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
             case 13:
                 //Sst
-                window.location.href = ""
+                redirectmsg.innerHTML = ""
                 break;
-                case 8:
-                    window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
-                    break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }

@@ -55,7 +55,7 @@ const helperQuestions  = (className, today) => {
         switch(today){
             case 9:
                 //maths
-                window.location.href = "https://presenter.jivrus.com/p/1Vq4CA_SCYxYMALFgUeIGJG3PZ4Chu4LAxSVlHGmbZFI"
+                window.location.href = "https://forms.gle/BpMk5xWjn7yJw3t17"
                 break;
             case 10:
                 //science

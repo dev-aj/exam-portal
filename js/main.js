@@ -7,6 +7,44 @@ redirectmsg.style.display = "none";
 
 console.log("Page loaded")
 
+//Clock-Function
+const span_hr = document.getElementById('span_hrs');
+const span_mnt = document.getElementById('span_mnt');
+const span_sec = document.getElementById('span_sec');
+const span_date = document.getElementById('current_date');
+
+const date_time = new Date();
+
+span_date.innerHTML = `${date_time.getDate()}/${date_time.getMonth()+1}/${date_time.getFullYear()}`;
+
+const setTime = () => {
+    const _time = new Date();
+    let hour = _time.getHours();
+    let min = _time.getMinutes();
+    let sec = _time.getSeconds();
+   // let millisecond = _time.getMilliseconds();
+    hour = updateTime(hour);
+    min = updateTime(min);
+    sec = updateTime(sec);
+    span_hr.innerHTML = hour+` : `;
+    span_mnt.innerHTML = min+` : `+sec;
+   // span_sec.innerText =" : "+millisecond;
+   
+    let t = setTimeout(function(){ setTime() },0); /* setting timer */
+}
+
+function updateTime(k) {
+    if (k < 10) {
+      return "0" + k;
+    }
+    else {
+      return k;
+    }
+  }
+
+setTime();
+//Clock-function ends
+
 function showQuestions(){
     formdata.style.display = "none";
     const today = date.getDate(); 
@@ -17,7 +55,7 @@ function showQuestions(){
     redirectmsg.style.display = "block";
         setTimeout(() => {
            helperQuestions(className, today);
-        }, 2000)
+        }, 1000)
 
     
 }
@@ -30,11 +68,12 @@ const helperQuestions  = (className, today) => {
         switch(today){
             case 9:
                 //maths
-                window.location.href = ""
+                //window.location.href = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/Rd7R1mQ62gdke534A" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 10:
                 //science
-                window.location.href = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/4dm8vGMUUXy1fRsM8" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 11:
                 //sst
@@ -59,7 +98,7 @@ const helperQuestions  = (className, today) => {
                 break;
             case 10:
                 //science
-                window.location.href = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/YqLwxxvBeEHKk5u38" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 12:
                 //english
@@ -105,7 +144,7 @@ const helperQuestions  = (className, today) => {
         switch(today){
             case 10:
                 //English
-                window.location.href = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/41qtg5arcYrM5bew8" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 11:
                 //Math
@@ -127,3 +166,5 @@ const helperQuestions  = (className, today) => {
         }
     }
 }
+
+//<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVpTzIG22PqBEvEmzLZS57ljQpFkR-Szs9_j1D5GIpDx0nBQ/viewform?embedded=true" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

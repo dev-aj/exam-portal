@@ -30,7 +30,7 @@ const helperQuestions  = (className, today) => {
         switch(today){
             case 9:
                 //maths
-                window.location.href = "https://presenter.jivrus.com/p/1LUbe2iLiYF-wyh0Bq-L4uta9raZcv0YMRDeqYKJo37A"
+                window.location.href = ""
                 break;
             case 10:
                 //science
@@ -38,11 +38,11 @@ const helperQuestions  = (className, today) => {
                 break;
             case 11:
                 //sst
-                window.location.href = "https://presenter.jivrus.com/p/1A8_TMv5gWY8fhi__aNAml7yGJJABNAgCk_udwzkIXsU"
+                window.location.href = ""
                 break;
             case 13:
                 //english
-                window.location.href = "https://presenter.jivrus.com/p/1IU7B6cq6XRU3FRuenC7TWXxyBa_IHZqMwiU66jlSDyY"
+                window.location.href = ""
                 break;
             case 8:
                 window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
@@ -59,15 +59,15 @@ const helperQuestions  = (className, today) => {
                 break;
             case 10:
                 //science
-                window.location.href = "https://presenter.jivrus.com/p/1G-rUzALu0tdBcIxZyVRCII1p1ER_4zPtO_nZWUvtO2s"
+                window.location.href = ""
                 break;
             case 12:
                 //english
-                window.location.href = "https://presenter.jivrus.com/p/127tcaPS_mg6SIcT1tSxO0L2x-zAkJmC55HJzqRF0kt0"
+                window.location.href = ""
                 break;
             case 13:
                 //sst
-                window.location.href = "https://presenter.jivrus.com/p/1rK64Ehj6ExxmwqkJ8xmyfSdwZY3cU5_oyILXakpVWKc"
+                window.location.href = ""
                 break;
             case 8:
                 window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
@@ -80,7 +80,7 @@ const helperQuestions  = (className, today) => {
         switch(today){
             case 9:
                 //Science
-                window.location.href = "https://presenter.jivrus.com/p/1x1S8qeIPuRJB7eHCNxb48br-V3CYNov3WYNGKQiUq4s"
+                window.location.href = ""
                 break;
             case 11:
                 //English
@@ -88,11 +88,11 @@ const helperQuestions  = (className, today) => {
                 break;
             case 12:
                 //Math
-                window.location.href = "https://presenter.jivrus.com/p/1uR2C0kAzpAe2nvh65UWIPatreVTjzeTs-aEAvEWI2Tg"
+                window.location.href = ""
                 break;
             case 13:
                 //Sst
-                window.location.href = "https://presenter.jivrus.com/p/1YARmnUj-w5nrqKQAPyctkZX14bO4z_RgEaO8ufCHHss"
+                window.location.href = ""
                 break;
                 case 8:
                     window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"
@@ -113,11 +113,11 @@ const helperQuestions  = (className, today) => {
                 break;
             case 12:
                 //Science
-                window.location.href = "https://presenter.jivrus.com/p/1L4Xrfoddrt1lDyhrYfqHc-PtjymR7ZgYpQVuP-U4IgI"
+                window.location.href = ""
                 break;
             case 13:
                 //Sst
-                window.location.href = "https://presenter.jivrus.com/p/14rh7w1csz46RtWJfR8By768-z8io4OiTi_BIcydg8-0"
+                window.location.href = ""
                 break;
                 case 8:
                     window.location.href = "https://forms.gle/Rd7R1mQ62gdke534A"

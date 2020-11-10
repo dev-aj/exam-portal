@@ -77,7 +77,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 11:
                 //sst
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/FVvsQ9oWb2brXozH8" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 13:
                 //english
@@ -135,11 +135,11 @@ const helperQuestions  = (className, today, student_name) => {
         switch(today){
             case 10:
                 //English
-                redirectmsg.innerHTML = `<iframe src="https://forms.gle/41qtg5arcYrM5bew8" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/qSVLkPYQgQZPLpAF8" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 11:
                 //Math
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://forms.gle/qSVLkPYQgQZPLpAF8" width="640" height="1301" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 12:
                 //Science

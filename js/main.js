@@ -117,7 +117,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 11:
                 //English
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFaJgF3rtdBWCqn9DYBt_PpCx9HTMuXel-uhiHxEN6-Rccpg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 12:
                 //Math

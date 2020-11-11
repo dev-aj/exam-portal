@@ -99,7 +99,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 12:
                 //english
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdwfIO5fBqtJkw9Pfdh1Jo3t45BC3WLSAx4E399YPjzB0SHqA/viewform?embedded=true" width="640" height="11745" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 13:
                 //sst
@@ -121,7 +121,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 12:
                 //Math
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLqQgCOQajw8qy_oU-dD3E4JGQuZmjotCOxMln2r8Im3ZUXA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 13:
                 //Sst
@@ -143,7 +143,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 12:
                 //Science
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdendbloGBJS28AqGp849Q77vp8gx6QKiG3xbDeUtmebSRGjA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             case 13:
                 //Sst

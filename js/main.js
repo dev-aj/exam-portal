@@ -64,7 +64,7 @@ const helperQuestions  = (className, today, student_name) => {
     console.log(className, today)
     const clockHour = date_time.getHours();
     const welcm_msg = document.getElementById('welcome-msg').innerHTML = `Hari Om, ${student_name}. All The Best for your exam.😊`
-    if(className === "5" && clockHour >= 10 && clockHour <= 13){
+    if(className === "5" && clockHour >= 10 && clockHour <= 12){
         console.log("Class: ",className)
         switch(today){
             case 9:
@@ -81,12 +81,12 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 13:
                 //english
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnRWyAGywZ6wzUN3IoS20geByiwLQgyiwrxs-dWkYHfSqADA/viewform?embedded=true" width="640" height="11647" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "6" && clockHour >= 10 && clockHour <= 13){
+    } else if(className === "6" && clockHour >= 10 && clockHour <= 12){
         console.log("Class: ",className)
         switch(today){
             case 9:
@@ -103,12 +103,12 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 13:
                 //sst
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMH0iKCy5fMceJI4t8nT7EBbb6YE2J1kA3HdaScyqMGXlirg/viewform?embedded=true" width="640" height="11350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "7" && clockHour >= 10 && clockHour <= 13){
+    } else if(className === "7" && clockHour >= 10 && clockHour <= 12){
         console.log("Class: ",className)
         switch(today){
             case 9:
@@ -125,12 +125,12 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 13:
                 //Sst
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGPVn7HhBq7PjGr-hlX-VhR58rX963S5cWGuBV1CQLlSStVQ/viewform?embedded=true" width="640" height="11034" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
         }
-    } else if(className === "8" && clockHour >= 10 && clockHour <= 13){
+    } else if(className === "8" && clockHour >= 10 && clockHour <= 12){
         console.log("Class: ",className)
         switch(today){
             case 10:
@@ -147,7 +147,7 @@ const helperQuestions  = (className, today, student_name) => {
                 break;
             case 13:
                 //Sst
-                redirectmsg.innerHTML = ""
+                redirectmsg.innerHTML = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjFZasoq8qi9pYTChzws_JMFn2ChJBrJYps13Uywzto_lONw/viewform?embedded=true" width="640" height="11829" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`
                 break;
             default:
                 alert("Enter correct details or Contact to office!!")
